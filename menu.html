@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <title>메뉴</title>
+        <link rel="stylesheet" href="eat.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <a class="btn btn-outline-dark" href="index.html">처음으로</a>
+        <p class="option">OPTION 1</p><h1>메뉴</h1>
+        <h2 class="text_content">언제 사용할까요</h2>
+        <ol>
+            <li>한정된 식사시간에 뭘 먹어야 할 지 고민될 때</li>
+            <li>외식 메뉴를 결정 못했을 때</li>
+            <li>대학생의 경우, 공간시간에 맞춰 점심을 뭐 먹을지 고민될 때</li>
+        </ol>
+        <hr>
+        <h2 class="text_content">사용하는 법</h2><br>
+            <h4>선택해야 할 것</h4>
+                <ol>
+                    <li>지역</li>
+                    <li>식사가능 시간</li>
+                    <li>먹고 싶은 식사류 또는 먹기 싫은 식사류(ex. 양식,면류 등) </li>
+                </ol>
+                <h3 class="text_content3">=> 조건에 맞춰 주변 식당을 알려주는 서비스</h3>
+                <br><br>
+        
+        <p class="option">사용 예시</p>     
+                
+        <div class="option">
+                <br>
+                <label for="area">지역</label>
+                <select id="area" name="area">
+                  <option value="seoul">서울</option>
+                  <option value="daejeon">대전</option>
+                  <option value="jeonju">전주</option>
+                  <option value="kangwon">강원도</option>
+                  <option value="busan">부산</option>
+                  <option value="daegu">대구</option>
+                  <option value="jeju">제주</option>
+                </select>
+<br>
+                <label for="eat_time">식사시간</label>
+                <select id="eat_time" name="eat_time">
+                  <option value="under 1hour">1시간 미만</option>
+                  <option value="1hour over">1시간 이상</option>
+                  <option value="2hour over">2시간 이상</option>
+                </select>
+<br>
+                <label for="eat_food">지금 먹고싶은 식사류</label>
+                <select id="eat_food" name="eat_food">
+                  <option value="kind of rice">밥종류</option>
+                  <option value="kind of noodle">면종류</option>
+                  <option value="kind of meat">고기종류</option>
+                  <option value="kind of bread">빵종류</option>
+                </select>
+              
+            <button type="submit" class="btn btn-warning">확인</button>
+
+            </div>
+        <hr>
+        <h2 class="text_content">복불복 메뉴</h2>
+            <ol>
+                <li>추출된 결과 중에서 결정을 하지 못하는 유저들을 위한 서비스</li>
+                <li>룰렛 또는 제비뽑기를 통해서 메뉴를 결정해주는 서비스</li>
+            </ol><br><br>
+
+
+        </body>
+</html>
